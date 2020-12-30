@@ -22,7 +22,6 @@ class Jwt {
      * 'iat'=>time(), //签发时间
      * 'exp'=>time()+7200, //过期时间
      * 'nbf'=>time()+60, //该时间之前不接收处理该Token
-     * 'sub'=>'www.admin.com',
      * 'jti'=>md5(uniqid('JWT').time()) //该Token唯一标识
      * ]
      * @return bool|string
